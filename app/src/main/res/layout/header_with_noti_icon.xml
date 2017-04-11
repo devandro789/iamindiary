@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp">
+        <LinearLayout
+            android:id="@+id/threeTab"
+            android:layout_width="wrap_content"
+            android:layout_height="?android:attr/actionBarSize"
+            android:layout_below="@+id/header"
+            android:background="@drawable/inbox_tab_selector"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.45"
+                android:id="@+id/tab_request"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <com.iamindiary.utils.CustomTextViewLight
+                    android:id="@+id/requestsTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/label_bg"
+                    android:gravity="center"
+                    android:padding="11dp"
+                    android:text="REQUESTS"
+                    android:textColor="@color/white"/>
+                <TextView
+                    android:id="@+id/requests_selectedTV"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/yellow"
+                    android:gravity="center"
+                    android:visibility="visible"
+                    android:paddingBottom="2dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.45"
+                android:layout_height="match_parent"
+                android:id="@+id/tab_chats"
+                android:orientation="vertical">
+                <com.iamindiary.utils.CustomTextViewLight
+                    android:id="@+id/chatsTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/label_bg"
+                    android:gravity="center"
+                    android:padding="11dp"
+                    android:text="CHATS"
+                    android:textColor="@color/white"
+                    android:layout_above="@+id/chat_selectedTV"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:id="@+id/chat_selectedTV"
+                    android:layout_alignParentBottom="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:background="@color/yellow"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="0.1"
+                android:gravity="center"
+                android:id="@+id/image_view_notificatin"
+                android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/alert_icon"/>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

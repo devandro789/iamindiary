@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ee4a3f</color>
+    <color name="colorPrimaryDark">#ee4a3f</color>
+    <color name="colorAccent">#ee4a3f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#bdbdbd</color>
+    <color name="light_gray">#b1b1b1</color>
+    <color name="yellow">#eeff41</color>
+    <color name="request_card_back_color">#FAFAFA</color>
+    <color name="black">#000000</color>
+    <color name="edittext_text_color">#585858</color>
+    <color name="green">#73cb4d</color>
+</resources>
