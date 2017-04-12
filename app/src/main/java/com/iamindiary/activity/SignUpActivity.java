@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.iamindiary.R;
 import com.iamindiary.utils.CustomEditTextRegular;
+import com.iamindiary.utils.CustomTextViewAvenirRegular;
 import com.iamindiary.utils.ProjectUtils;
 import com.kyleduo.switchbutton.SwitchButton;
 
@@ -28,7 +29,7 @@ public class SignUpActivity extends Activity implements View.OnClickListener
     private CustomEditTextRegular edittext_username, edittext_firstname, edittext_lastname, edittext_email,
             edittext_password;
     private ImageView backIV;
-    private TextView textview_signup;
+    private CustomTextViewAvenirRegular textview_signup;
     private SwitchButton switch_privateprofile;
     private ColorStateList colorStateList;
     @Override
@@ -66,7 +67,7 @@ public class SignUpActivity extends Activity implements View.OnClickListener
             }
         });
 
-        textview_signup = (TextView) findViewById(R.id.textview_signup);
+        textview_signup = (CustomTextViewAvenirRegular) findViewById(R.id.textview_signup);
         textview_signup.setOnClickListener(this);
     }
 

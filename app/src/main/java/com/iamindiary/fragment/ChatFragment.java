@@ -20,7 +20,7 @@ public class ChatFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState)
     {
-        view = inflater.inflate(R.layout.layout_inbox,null,false);
+        view = inflater.inflate(R.layout.layout_chat,null,false);
         return view;
     }
 }
