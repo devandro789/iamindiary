@@ -15,8 +15,8 @@
     <string name="email_validation">Please enter valid email.</string>
     <string name="first_name_validation">Please enter first name.</string>
     <string name="last_name_validation">Please enter last name.</string>
-    <string name="phone_validation">Please enter valid Phone no.</string>
-    <string name="password_validation">Please enter valid password.</string>
+    <string name="phone_validation">Please enter UserName.</string>
+    <string name="password_validation">Please enter password.</string>
     <string name="confirm_password_validation">Please re-enter password.</string>
     <string name="cpassword_validation">Password and confirm password not matched.</string>
 </resources>
