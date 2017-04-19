@@ -1,5 +1,6 @@
 package com.iamindiary.fragment;
 
+
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -12,11 +13,7 @@ import android.widget.TextView;
 
 import com.iamindiary.R;
 
-/**
- * Created by Amit on 10-04-2017.
- */
-
-public class HomeFragment extends Fragment implements View.OnClickListener
+public class InboxFragment extends Fragment implements View.OnClickListener
 {
     private View view;
     private RelativeLayout tab_requests,tab_chats;
@@ -65,20 +62,20 @@ public class HomeFragment extends Fragment implements View.OnClickListener
 
     public void setSelectedTab(int value)
     {
-         switch (value)
-         {
-             case R.id.tab_request:
-                 tab_chat_selected.setVisibility(View.INVISIBLE);
-                 tab_request_selected.setVisibility(View.VISIBLE);
-                 break;
-             case R.id.tab_chats:
-                 tab_chat_selected.setVisibility(View.VISIBLE);
-                 tab_request_selected.setVisibility(View.INVISIBLE);
-                 break;
-             default:
-                 tab_chat_selected.setVisibility(View.INVISIBLE);
-                 tab_request_selected.setVisibility(View.VISIBLE);
-                 break;
-         }
+        switch (value)
+        {
+            case R.id.tab_request:
+                tab_chat_selected.setVisibility(View.INVISIBLE);
+                tab_request_selected.setVisibility(View.VISIBLE);
+                break;
+            case R.id.tab_chats:
+                tab_chat_selected.setVisibility(View.VISIBLE);
+                tab_request_selected.setVisibility(View.INVISIBLE);
+                break;
+            default:
+                tab_chat_selected.setVisibility(View.INVISIBLE);
+                tab_request_selected.setVisibility(View.VISIBLE);
+                break;
+        }
     }
 }

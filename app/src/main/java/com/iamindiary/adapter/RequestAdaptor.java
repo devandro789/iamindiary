@@ -1,4 +1,4 @@
-package com.iamindiary.adaptor;
+package com.iamindiary.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;

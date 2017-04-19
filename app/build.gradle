@@ -32,5 +32,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.roughike:bottom-bar:2.3.0'
     compile 'com.kyleduo.switchbutton:library:1.4.5'
+    compile 'com.github.michaelye.easydialog:easydialog:1.4'
+    compile 'com.zcw:togglebutton-library:1.0.0'
+    compile 'com.kyleduo.switchbutton:library:1.4.5'
 
 }

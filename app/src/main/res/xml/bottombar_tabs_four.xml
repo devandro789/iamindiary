@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tabs>
     <tab
-        id="@+id/tab_recents"
+        id="@+id/tab_inbox"
         icon="@drawable/inbox_icon_selected"
         title="@string/inbox" />
     <tab
-        id="@+id/tab_favorites"
+        id="@+id/tab_diary"
         icon="@drawable/diary_icon"
         title="@string/diary" />
     <tab
-        id="@+id/tab_nearby"
+        id="@+id/tab_search"
         icon="@drawable/search_icon"
         title="@string/search" />
     <tab
-        id="@+id/tab_friends"
+        id="@+id/tab_profile"
         icon="@drawable/profile_icon"
         title="@string/profile" />
 </tabs>

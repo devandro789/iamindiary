@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 
 import com.iamindiary.R;
-import com.iamindiary.adaptor.RequestAdaptor;
+import com.iamindiary.adapter.RequestAdaptor;
 
 /**
  * Created by Amit on 10-04-2017.
